@@ -17,7 +17,7 @@ class Table {
 private:
 
     const int SIZE = 8; // number of legs in x axis. 
-    double m=0,c=0;    //description??
+    double m=0,c=0;    // m is the slope
     double lower_cutoff = 0, higher_cutoff = 0;
     double x_length = 53.15; //vertical length of the table  
 
@@ -26,7 +26,7 @@ private:
     std::vector<double> required_dust{ 0,0,0,0,0,0,0,0 };
     std::vector<double> required_leg_length{ 0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98 };
     std::vector<double> x_axis{ 0,0,0,0,0,0,0,0 }; //vector which holds the leg points on x axes
-    std::map<int, double> mp;
+    std::map<int, double> mp;  //it holds outlier's index and value 
 
     double find_median(std::vector<double> tvec);
     void find_cutoff();
