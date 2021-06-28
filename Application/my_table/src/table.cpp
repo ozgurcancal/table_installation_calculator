@@ -75,10 +75,8 @@ void Table::initialize_best_linear_line(std::vector<double> y_axis)
 
 double Table::find_median(std::vector<double> tvec) {
 
-    Table table;
-    int siz = table.SIZE;
-    return (siz % 2 == 0) ? ((tvec[siz / 2] + tvec[siz / 2 - 1]) / 2) : (tvec[siz / 2]);
-
+    return (SIZE % 2 == 0) ? ((tvec[SIZE / 2] + tvec[SIZE / 2 - 1]) / 2) : (tvec[SIZE / 2]);
+    
 }
 
 //BoxPlot method is used for detecting outliers.
