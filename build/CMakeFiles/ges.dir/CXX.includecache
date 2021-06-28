@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Application/my_table/include/my_table/table.h
+vector
+-
+algorithm
+-
+random
+-
+numeric
+-
+functional
+-
+string
+-
+sstream
+-
+iostream
+-
+random
+-
+iomanip
+-
+map
+-
+
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/main.cpp
+my_table/table.h
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/my_table/table.h
+

@@ -1,0 +1,6 @@
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/CMakeFiles/rebuild_cache.dir
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/CMakeFiles/edit_cache.dir
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/CMakeFiles/ges.dir
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/Application/my_table/CMakeFiles/rebuild_cache.dir
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/Application/my_table/CMakeFiles/edit_cache.dir
+/home/ozgur/Desktop/C deneme kodları/ges project version 1.0/build/Application/my_table/CMakeFiles/my_table.dir

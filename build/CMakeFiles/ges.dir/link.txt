@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/ges.dir/main.cpp.o  -o ges  Application/my_table/libmy_table.a 
