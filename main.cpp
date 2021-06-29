@@ -1,3 +1,4 @@
+
 // ges project.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
 #include "my_table/table.h"
@@ -25,7 +26,6 @@ int main()
 //bulunan eğime uygun bir şekilde silenen aykırı değerlerin yerine yeni değerler ekle
 //bacak boylarını ve eklenip çıkarılacak toprak miktarını lineer doğru ile üretilen rastgele yüzeyin farkını alarak bul.
 //bacak boyu min 0.78cm max 0.118 cm optimum 0.98 cm
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
