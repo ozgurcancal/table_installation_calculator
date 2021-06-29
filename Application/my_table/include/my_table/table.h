@@ -17,16 +17,26 @@ class Table {
 private:
 
     const int SIZE = 8; // number of legs in x axis. 
+<<<<<<< HEAD
     double m=0,c=0;    // parameters of the straight line
+=======
+    double m=0,c=0;    // m is the slope
+>>>>>>> 896070d269f90f778ea761e33dc3338a976e2f57
     double lower_cutoff = 0, higher_cutoff = 0;
     double x_length = 53.15; //vertical length of the table  
 
     std::vector<double> best_linear_line;
     std::vector<double> leg_heights;
     std::vector<double> required_dust{ 0,0,0,0,0,0,0,0 };
+<<<<<<< HEAD
     std::vector<double> required_leg_length{ 0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98 }; //
     std::vector<double> x_points{ 0,0,0,0,0,0,0,0 }; //vector which holds the leg points on x axes
     std::map<int, double> mp; // container which holds outlier's index and value
+=======
+    std::vector<double> required_leg_length{ 0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98 };
+    std::vector<double> x_axis{ 0,0,0,0,0,0,0,0 }; //vector which holds the leg points on x axes
+    std::map<int, double> mp;  //it holds outlier's index and value 
+>>>>>>> 896070d269f90f778ea761e33dc3338a976e2f57
 
     void generate_x_points(); 
     double find_median(std::vector<double> tvec);
